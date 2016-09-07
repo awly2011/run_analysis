@@ -1,9 +1,12 @@
 CodeBook:
 
 Subject: 1 - 30 Volunteers
+
 Activity: WALKING/WALKING_UPSTAIRS/WALKING_DOWNSTAIRS/SITTINGSTANDING/LAYING
 
+
 Measurements:
+
 tBodyAccMeanX
 tBodyAccMeanY
 tBodyAccMeanZ
