@@ -51,7 +51,7 @@ test_train$Activity <- factor(test_train$Activity, levels = activity_labels[[1]]
 
 # Rename the variable names appropriately
 names(test_train) <- gsub("-", "", names(test_train))
-names(test_train) <- gsub("()", "", names(test_train))
+names(test_train) <- gsub("[()]", "", names(test_train))
 names(test_train) <- gsub("mean", "Mean", names(test_train))
 names(test_train) <- gsub("std", "Std", names(test_train))
 ##################Step 4 finished#####################################
